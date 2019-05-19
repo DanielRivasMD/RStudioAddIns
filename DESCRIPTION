@@ -1,0 +1,17 @@
+Package: RStudioAddIns
+Title: Add customised hotkeys for RStudio
+Version: 0.0.1
+Authors@R:
+  person(given = "Daniel",
+    family = "Rivas",
+    role = c("aut", "cre"),
+    email = "daniel.rivas@imbim.uu.se")
+Description: This package contains customised hotkeybindings for RStudio.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports:
+  shiny (>= 0.13),
+  miniUI (>= 0.1.1),
+  rstudioapi (>= 0.5)
