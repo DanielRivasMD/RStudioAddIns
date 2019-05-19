@@ -2,3 +2,38 @@ Name: Insert %>%
 Description: Inserts `%>%` at the cursor position.
 Binding: InsertPipeDplyr
 Interactive: false
+
+Name: Insert ,
+Description: Inserts `,` at the cursor position.
+Binding: InsertComma
+Interactive: false
+
+Name: Insert ==
+Description: Inserts `==` at the cursor position.
+Binding: InsertEqualEqual
+Interactive: false
+
+Name: Insert +
+Description: Inserts `+` at the cursor position.
+Binding: InsertPlus
+Interactive: false
+
+Name: Insert -
+Description: Inserts `-` at the cursor position.
+Binding: InsertMinus
+Interactive: false
+
+Name: Insert *
+Description: Inserts `*` at the cursor position.
+Binding: InsertTimes
+Interactive: false
+
+Name: Insert /
+Description: Inserts `/` at the cursor position.
+Binding: InsertDivide
+Interactive: false
+
+Name: Insert =
+Description: Inserts `=` at the cursor position.
+Binding: InsertEqual
+Interactive: false
