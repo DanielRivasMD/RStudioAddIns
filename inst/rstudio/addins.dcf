@@ -47,3 +47,8 @@ Name: Insert ,
 Description: Inserts `,` at the cursor position.
 Binding: InsertComma
 Interactive: false
+
+Name: Insert ~
+Description: Inserts `~` at the cursor position.
+Binding: InsertTilde
+Interactive: false
