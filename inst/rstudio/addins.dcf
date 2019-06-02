@@ -8,9 +8,24 @@ Description: Inserts `%>%` at the cursor position.
 Binding: InsertPipeDplyr
 Interactive: false
 
+Name: Insert %$%
+Description: Inserts `%$%` at the cursor position.
+Binding: InsertPipeDplyrVar
+Interactive: false
+
+Name: Insert %<>%
+Description: Inserts `%<>%` at the cursor position.
+Binding: InsertPipeDplyrAssign
+Interactive: false
+
 Name: Insert <-
 Description: Inserts `<-` at the cursor position.
 Binding: InsertAssign
+Interactive: false
+
+Name: Insert ->
+Description: Inserts `->` at the cursor position.
+Binding: InsertAssignRight
 Interactive: false
 
 Name: Insert ==
