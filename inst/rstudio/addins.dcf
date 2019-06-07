@@ -18,6 +18,11 @@ Description: Inserts `%<>%` at the cursor position.
 Binding: InsertPipeDplyrAssign
 Interactive: false
 
+Name: Insert %T>%
+Description: Inserts `%T>%` at the cursor position.
+Binding: InsertPipeDplyrTee
+Interactive: false
+
 Name: Insert <-
 Description: Inserts `<-` at the cursor position.
 Binding: InsertAssign
@@ -66,4 +71,9 @@ Interactive: false
 Name: Insert ~
 Description: Inserts `~` at the cursor position.
 Binding: InsertTilde
+Interactive: false
+
+Name: Insert :=
+Description: Inserts `:=` at the cursor position.
+Binding: InsertGoAssign
 Interactive: false
