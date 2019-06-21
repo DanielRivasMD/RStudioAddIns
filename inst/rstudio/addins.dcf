@@ -1,26 +1,6 @@
-Name: Insert %in%
-Description: Inserts `%in%` at the cursor position.
-Binding: InsertInclude
-Interactive: false
-
-Name: Insert %>%
-Description: Inserts `%>%` at the cursor position.
-Binding: InsertPipeDplyr
-Interactive: false
-
-Name: Insert %$%
-Description: Inserts `%$%` at the cursor position.
-Binding: InsertPipeDplyrVar
-Interactive: false
-
-Name: Insert %<>%
-Description: Inserts `%<>%` at the cursor position.
-Binding: InsertPipeDplyrAssign
-Interactive: false
-
-Name: Insert %T>%
-Description: Inserts `%T>%` at the cursor position.
-Binding: InsertPipeDplyrTee
+Name: Insert ,
+Description: Inserts `,` at the cursor position.
+Binding: InsertComma
 Interactive: false
 
 Name: Insert <-
@@ -28,9 +8,29 @@ Description: Inserts `<-` at the cursor position.
 Binding: InsertAssign
 Interactive: false
 
+Name: Insert <<-
+Description: Inserts `<<-` at the cursor position.
+Binding: InsertUpAssign
+Interactive: false
+
+Name: Insert =>
+Description: Inserts `=>` at the cursor position.
+Binding: InsertRustAssign
+Interactive: false
+
 Name: Insert ->
 Description: Inserts `->` at the cursor position.
 Binding: InsertAssignRight
+Interactive: false
+
+Name: Insert :=
+Description: Inserts `:=` at the cursor position.
+Binding: InsertGoAssign
+Interactive: false
+
+Name: Insert ~
+Description: Inserts `~` at the cursor position.
+Binding: InsertTilde
 Interactive: false
 
 Name: Insert ==
@@ -38,14 +38,14 @@ Description: Inserts `==` at the cursor position.
 Binding: InsertEqualEqual
 Interactive: false
 
-Name: Insert =
-Description: Inserts `=` at the cursor position.
-Binding: InsertEqual
-Interactive: false
-
 Name: Insert +
 Description: Inserts `+` at the cursor position.
 Binding: InsertPlus
+Interactive: false
+
+Name: Insert =
+Description: Inserts `=` at the cursor position.
+Binding: InsertEqual
 Interactive: false
 
 Name: Insert -
@@ -63,17 +63,47 @@ Description: Inserts `/` at the cursor position.
 Binding: InsertDivide
 Interactive: false
 
-Name: Insert ,
-Description: Inserts `,` at the cursor position.
-Binding: InsertComma
+Name: Insert <
+Description: Inserts `<` at the cursor position.
+Binding: InsertLessThan
 Interactive: false
 
-Name: Insert ~
-Description: Inserts `~` at the cursor position.
-Binding: InsertTilde
+Name: Insert >
+Description: Inserts `>` at the cursor position.
+Binding: InsertMoreThan
 Interactive: false
 
-Name: Insert :=
-Description: Inserts `:=` at the cursor position.
-Binding: InsertGoAssign
+Name: Insert <=
+Description: Inserts `<=` at the cursor position.
+Binding: InsertLessEqual
+Interactive: false
+
+Name: Insert >=
+Description: Inserts `>=` at the cursor position.
+Binding: InsertMoreEqual
+Interactive: false
+
+Name: Insert %in%
+Description: Inserts `%in%` at the cursor position.
+Binding: InsertInclude
+Interactive: false
+
+Name: Insert %>%
+Description: Inserts `%>%` at the cursor position.
+Binding: InsertPipeDplyr
+Interactive: false
+
+Name: Insert %<>%
+Description: Inserts `%<>%` at the cursor position.
+Binding: InsertPipeDplyrAssign
+Interactive: false
+
+Name: Insert %$%
+Description: Inserts `%$%` at the cursor position.
+Binding: InsertPipeDplyrVar
+Interactive: false
+
+Name: Insert %T>%
+Description: Inserts `%T>%` at the cursor position.
+Binding: InsertPipeDplyrTee
 Interactive: false
