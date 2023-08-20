@@ -5,7 +5,7 @@ Authors@R:
   person(given = "Daniel",
     family = "Rivas",
     role = c("aut", "cre"),
-    email = "daniel.rivas@imbim.uu.se")
+    email = "danielrivasmd@gmail.com")
 Description: This package contains customised hotkeybindings for RStudio.
 License: GPL-3
 Encoding: UTF-8
