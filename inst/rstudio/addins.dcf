@@ -1,56 +1,36 @@
-Name: Insert ,
-Description: Inserts `,` at the cursor position.
-Binding: InsertComma
-Interactive: false
-
-Name: Insert <-
-Description: Inserts `<-` at the cursor position.
-Binding: InsertAssign
-Interactive: false
-
-Name: Insert <<-
-Description: Inserts `<<-` at the cursor position.
-Binding: InsertUpAssign
-Interactive: false
-
-Name: Insert =>
-Description: Inserts `=>` at the cursor position.
-Binding: InsertRustAssign
-Interactive: false
-
-Name: Insert ->
-Description: Inserts `->` at the cursor position.
-Binding: InsertAssignRight
-Interactive: false
-
-Name: Insert :=
-Description: Inserts `:=` at the cursor position.
-Binding: InsertGoAssign
-Interactive: false
-
-Name: Insert ~
+Name: Insert ~,
 Description: Inserts `~` at the cursor position.
 Binding: InsertTilde
 Interactive: false
 
-Name: Insert ==
-Description: Inserts `==` at the cursor position.
-Binding: InsertEqualEqual
+Name: Insert @
+Description: Inserts `@` at the cursor position.
+Binding: InsertArroba
 Interactive: false
 
-Name: Insert +
-Description: Inserts `+` at the cursor position.
-Binding: InsertPlus
+Name: Insert \
+Description: Inserts `\` at the cursor position.
+Binding: InsertBackSlash
 Interactive: false
 
-Name: Insert =
-Description: Inserts `=` at the cursor position.
-Binding: InsertEqual
+Name: Insert $
+Description: Inserts `$` at the cursor position.
+Binding: InsertDollar
 Interactive: false
 
-Name: Insert -
-Description: Inserts `-` at the cursor position.
-Binding: InsertMinus
+Name: Insert %
+Description: Inserts `%` at the cursor position.
+Binding: InsertPercentage
+Interactive: false
+
+Name: Insert ^
+Description: Inserts `^` at the cursor position.
+Binding: InsertHat
+Interactive: false
+
+Name: Insert &
+Description: Inserts `&` at the cursor position.
+Binding: InsertAnd
 Interactive: false
 
 Name: Insert *
@@ -63,14 +43,19 @@ Description: Inserts `/` at the cursor position.
 Binding: InsertDivide
 Interactive: false
 
-Name: Insert <
-Description: Inserts `<` at the cursor position.
-Binding: InsertLessThan
+Name: Insert +
+Description: Inserts `+` at the cursor position.
+Binding: InsertPlus
 Interactive: false
 
-Name: Insert >
-Description: Inserts `>` at the cursor position.
-Binding: InsertMoreThan
+Name: Insert -
+Description: Inserts `-` at the cursor position.
+Binding: InsertMinus
+Interactive: false
+
+Name: Insert =
+Description: Inserts `=` at the cursor position.
+Binding: InsertEqual
 Interactive: false
 
 Name: Insert <=
@@ -83,14 +68,94 @@ Description: Inserts `>=` at the cursor position.
 Binding: InsertMoreEqual
 Interactive: false
 
-Name: Insert %in%
-Description: Inserts `%in%` at the cursor position.
-Binding: InsertInclude
+Name: Insert ->
+Description: Inserts `->` at the cursor position.
+Binding: InsertAssignRight
+Interactive: false
+
+Name: Insert |
+Description: Inserts `|` at the cursor position.
+Binding: InsertOr
+Interactive: false
+
+Name: Insert <
+Description: Inserts `<` at the cursor position.
+Binding: InsertLessThan
+Interactive: false
+
+Name: Insert >
+Description: Inserts `>` at the cursor position.
+Binding: InsertMoreThan
+Interactive: false
+
+Name: Insert <-
+Description: Inserts `<-` at the cursor position.
+Binding: InsertAssign
+Interactive: false
+
+Name: Insert ..
+Description: Inserts `..` at the cursor position.
+Binding: InsertDoubleDot
+Interactive: false
+
+Name: Insert =~
+Description: Inserts `=~` at the cursor position.
+Binding: InsertEqualTilde
+Interactive: false
+
+Name: Insert =>
+Description: Inserts `=>` at the cursor position.
+Binding: InsertRustAssign
+Interactive: false
+
+Name: Insert :=
+Description: Inserts `:=` at the cursor position.
+Binding: InsertGoAssign
+Interactive: false
+
+Name: Insert ...
+Description: Inserts `...` at the cursor position.
+Binding: InsertTripleDot
+Interactive: false
+
+Name: Insert !=
+Description: Inserts `!=` at the cursor position.
+Binding: InsertNotEqual
+Interactive: false
+
+Name: Insert ==,
+Description: Inserts `==,` at the cursor position.
+Binding: InsertEqualEqual
+Interactive: false
+
+Name: Insert %$%,
+Description: Inserts `%$%,` at the cursor position.
+Binding: InsertPipeDplyrVar
+Interactive: false
+
+Name: Insert ```
+Description: Inserts ````` at the cursor position.
+Binding: InsertTripleEsc
+Interactive: false
+
+Name: Insert %<%
+Description: Inserts `%<%` at the cursor position.
+Binding: InsertPipeDplyrLeft
 Interactive: false
 
 Name: Insert %>%
 Description: Inserts `%>%` at the cursor position.
-Binding: InsertPipeDplyr
+Binding: InsertPipeDplyrRight
+Interactive: false
+
+Name: Insert ,
+Description: Inserts `,` at the cursor position.
+Binding: InsertComma
+Interactive: false
+
+Name: Insert %T>%
+Description: Inserts `%T>%` at the cursor position.
+Binding: InsertPipeDplyrTee
 Interactive: false
 
 Name: Insert %<>%
@@ -98,12 +163,62 @@ Description: Inserts `%<>%` at the cursor position.
 Binding: InsertPipeDplyrAssign
 Interactive: false
 
-Name: Insert %$%
-Description: Inserts `%$%` at the cursor position.
-Binding: InsertPipeDplyrVar
+Name: Insert %<+%
+Description: Inserts `%<+%` at the cursor position.
+Binding: InsertPipeDplyrPlusLeft
 Interactive: false
 
-Name: Insert %T>%
-Description: Inserts `%T>%` at the cursor position.
-Binding: InsertPipeDplyrTee
+Name: Insert %+>%
+Description: Inserts `%+>%` at the cursor position.
+Binding: InsertPipeDplyrPlusRight
+Interactive: false
+
+Name: Insert %!>%
+Description: Inserts `%!>%` at the cursor position.
+Binding: InsertPipeDplyrNot
+Interactive: false
+
+Name: Insert %%
+Description: Inserts `%%` at the cursor position.
+Binding: InsertModulus
+Interactive: false
+
+Name: Insert <<-
+Description: Inserts `<<-` at the cursor position.
+Binding: InsertUpAssign
+Interactive: false
+
+Name: Insert ;
+Description: Inserts `;` at the cursor position.
+Binding: InsertSemiColon
+Interactive: false
+
+Name: Insert :
+Description: Inserts `:` at the cursor position.
+Binding: InsertColon
+Interactive: false
+
+Name: Insert %in%
+Description: Inserts `%in%` at the cursor position.
+Binding: InsertInclude
+Interactive: false
+
+Name: Insert &&
+Description: Inserts `&&` at the cursor position.
+Binding: InsertDoubleAnd
+Interactive: false
+
+Name: Insert ::
+Description: Inserts `::` at the cursor position.
+Binding: InsertDoubleColon
+Interactive: false
+
+Name: Insert ||
+Description: Inserts `||` at the cursor position.
+Binding: InsertDoubleOr
+Interactive: false
+
+Name: Insert %ni%
+Description: Inserts `%ni%` at the cursor position.
+Binding: InsertNotInclude
 Interactive: false
