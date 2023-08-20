@@ -2,10 +2,10 @@
 % Please edit documentation in R/InsertUpAssign.R
 \name{InsertUpAssign}
 \alias{InsertUpAssign}
-\title{Insert \%in\%.}
+\title{Insert <<-.}
 \usage{
 InsertUpAssign()
 }
 \description{
-Call this function as an addin to insert \code{ \%in\% } at the cursor position.
+Call this function as an addin to insert \code{ <<- } at the cursor position.
 }

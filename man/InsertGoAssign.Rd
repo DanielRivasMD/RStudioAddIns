@@ -2,7 +2,7 @@
 % Please edit documentation in R/InsertGoAssign.R
 \name{InsertGoAssign}
 \alias{InsertGoAssign}
-\title{Insert  :=.}
+\title{Insert :=.}
 \usage{
 InsertGoAssign()
 }

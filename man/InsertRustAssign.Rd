@@ -2,10 +2,10 @@
 % Please edit documentation in R/InsertRustAssign.R
 \name{InsertRustAssign}
 \alias{InsertRustAssign}
-\title{Insert \%in\%.}
+\title{Insert =>.}
 \usage{
 InsertRustAssign()
 }
 \description{
-Call this function as an addin to insert \code{ \%in\% } at the cursor position.
+Call this function as an addin to insert \code{ => } at the cursor position.
 }
