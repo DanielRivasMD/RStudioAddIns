@@ -1,6 +1,6 @@
 Package: RStudioAddIns
 Title: Add customised hotkeys for RStudio
-Version: 1.0.0
+Version: 1.0.1
 Authors@R:
   person(given = "Daniel",
     family = "Rivas",
