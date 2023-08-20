@@ -2,10 +2,10 @@
 % Please edit documentation in R/InsertBackSlash.R
 \name{InsertBackSlash}
 \alias{InsertBackSlash}
-\title{Insert \.}
+\title{Insert \\.}
 \usage{
 InsertBackSlash()
 }
 \description{
-Call this function as an addin to insert \code{ \ } at the cursor position.
+Call this function as an addin to insert \code{ \\ } at the cursor position.
 }
