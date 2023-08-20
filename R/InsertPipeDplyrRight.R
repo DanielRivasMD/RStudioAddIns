@@ -5,6 +5,6 @@
 #' @importFrom rstudioapi insertText
 #'
 #' @export
-InsertPipeDplyr <- function() {
+InsertPipeDplyrRight <- function() {
   rstudioapi::insertText(" %>% ")
 }
