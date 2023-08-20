@@ -1,0 +1,9 @@
+# R files
+^RStudioAddIns\.Rproj$
+^\.Rproj\.user$
+
+# license
+LICENSE
+
+# todor
+.todor
