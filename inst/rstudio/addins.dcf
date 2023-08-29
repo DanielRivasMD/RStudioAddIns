@@ -183,6 +183,36 @@ Description: Inserts `%%` at the cursor position.
 Binding: InsertModulus
 Interactive: false
 
+Name: Insert @param
+Description: Inserts `@param` at the cursor position.
+Binding: InsertRparam
+Interactive: false
+
+Name: Insert @return
+Description: Inserts `@return` at the cursor position.
+Binding: InsertRreturn
+Interactive: false
+
+Name: Insert @importFrom
+Description: Inserts `@importFrom` at the cursor position.
+Binding: InsertRimport
+Interactive: false
+
+Name: Insert @examples
+Description: Inserts `@examples` at the cursor position.
+Binding: InsertRexamples
+Interactive: false
+
+Name: Insert @rdname
+Description: Inserts `@rdname` at the cursor position.
+Binding: InsertRrdname
+Interactive: false
+
+Name: Insert @export
+Description: Inserts `@export` at the cursor position.
+Binding: InsertRexport
+Interactive: false
+
 Name: Insert <<-
 Description: Inserts `<<-` at the cursor position.
 Binding: InsertUpAssign
@@ -218,7 +248,22 @@ Description: Inserts `||` at the cursor position.
 Binding: InsertDoubleOr
 Interactive: false
 
+Name: Insert #'
+Description: Inserts `#'` at the cursor position.
+Binding: InsertRdoc
+Interactive: false
+
 Name: Insert %ni%
 Description: Inserts `%ni%` at the cursor position.
 Binding: InsertNotInclude
+Interactive: false
+
+Name: Insert BUG:
+Description: Inserts `BUG:` at the cursor position.
+Binding: InsertBUG
+Interactive: false
+
+Name: Insert TODO:
+Description: Inserts `TODO:` at the cursor position.
+Binding: InsertTODO
 Interactive: false
