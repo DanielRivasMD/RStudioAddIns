@@ -68,6 +68,11 @@ Description: Inserts `>=` at the cursor position.
 Binding: InsertMoreEqual
 Interactive: false
 
+Name: Insert |>
+Description: Inserts `|>` at the cursor position.
+Binding: InsertJuliaPipe
+Interactive: false
+
 Name: Insert ->
 Description: Inserts `->` at the cursor position.
 Binding: InsertAssignRight
